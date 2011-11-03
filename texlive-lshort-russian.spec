@@ -1,3 +1,9 @@
+# revision 18906
+# category Package
+# catalog-ctan /info/lshort/russian
+# catalog-date 2006-12-28 00:06:45 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-lshort-russian
 Version:	20061228
 Release:	1
@@ -20,6 +26,7 @@ Russian version of A Short Introduction to LaTeX2e.
 %files
 %doc %{_texmfdistdir}/doc/latex/lshort-russian/lshortru.pdf
 %doc %{_texmfdistdir}/doc/latex/lshort-russian/lshortru.zip
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -30,3 +37,5 @@ Russian version of A Short Introduction to LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

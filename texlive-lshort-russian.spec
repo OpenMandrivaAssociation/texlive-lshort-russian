@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-lshort-russian
 Version:	20061228
-Release:	6
+Release:	7
 Summary:	Russian introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/russian

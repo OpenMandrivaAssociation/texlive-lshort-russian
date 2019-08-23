@@ -1,5 +1,5 @@
 Name:		texlive-lshort-russian
-Version:	20190228
+Version:	20190822
 Release:	1
 Summary:	Russian introduction to LaTeX
 Group:		Publishing

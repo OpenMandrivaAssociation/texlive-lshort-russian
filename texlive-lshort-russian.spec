@@ -1,12 +1,12 @@
 Name:		texlive-lshort-russian
-Version:	20190822
+Version:	55643
 Release:	1
 Summary:	Russian introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/russian
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,7 +20,7 @@ Russian version of A Short Introduction to LaTeX2e.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 

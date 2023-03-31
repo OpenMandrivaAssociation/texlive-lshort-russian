@@ -1,6 +1,6 @@
 Name:		texlive-lshort-russian
 Version:	55643
-Release:	1
+Release:	2
 Summary:	Russian introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/russian

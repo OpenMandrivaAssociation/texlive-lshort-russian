@@ -3,7 +3,7 @@ Version:	55643
 Release:	2
 Summary:	Russian introduction to LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/russian
+URL:		https://www.ctan.org/tex-archive/info/lshort/russian
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-russian.doc.r%{version}.tar.xz
